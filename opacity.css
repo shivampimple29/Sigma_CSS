@@ -1,0 +1,30 @@
+.a , .b{
+    width: 125px;
+    height: 100px;
+    text-align: center;
+    color: navy;
+    font-weight: bold;
+    align-content: center;
+    background-color: rgb(0, 255, 102);
+    display: inline-block;
+    margin: 10px;
+}
+.b{
+    background-color: rgba(0, 255, 102, 0.29);
+}
+.c , .d{
+    width: 125px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    align-content: center;
+    background-color: orangered;
+    display: inline-block;
+    margin: 10px;
+}
+.d{
+    background-color: orangered;
+    opacity: 0.5;
+  
+}

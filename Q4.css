@@ -1,0 +1,57 @@
+h1{
+    color: red;
+}
+
+/* Descendant Selector */
+p a{
+    text-decoration: none;
+    color:brown;
+}
+
+nav a{
+    color: black;
+}
+
+/* Adjacent Sibling Selector */
+p+h3{
+    color: rgb(8, 92, 237);
+    text-decoration:  underline;
+}
+
+/* Child Combinator */
+span>button{
+    color: orangered;
+    border-radius: 10px;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    color: rgb(255, 179, 0);
+}
+
+input[type="password"]{
+    color: navy;
+}
+
+/* Pseudo Class */
+button:hover{
+    color: aqua;
+}
+
+button:active{
+    background-color: cadetblue;
+}
+
+div:nth-of-type(2n){
+    background-color:blanchedalmond;
+}
+
+/* Pseudo Element */
+
+h1::first-letter{
+    color: crimson;
+}
+
+h3::first-letter{
+    color: darkgoldenrod;
+}

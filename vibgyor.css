@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#vibgyor{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 16px solid azure;
+    border-top: 16px solid #9400d3;
+    transition: border-top-color 0.2s linear;
+    animation: spin 2s linear infinite, colorChange 2s linear infinite;
+}
+
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes colorChange {
+  0%     { border-top-color: #9400d3; }  /* Violet */
+  14.28% { border-top-color: #4b0082; }  /* Indigo */
+  28.56% { border-top-color: #0000ff; }  /* Blue */
+  42.84% { border-top-color: #00ff00; }  /* Green */
+  57.12% { border-top-color: #ffff00; }  /* Yellow */
+  71.4%  { border-top-color: #ff7f00; }  /* Orange */
+  85.68% { border-top-color: #ff0000; }  /* Red */
+  100%   { border-top-color: #9400d3; }  /* Back to Violet */
+}
